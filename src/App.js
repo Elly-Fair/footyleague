@@ -1,5 +1,12 @@
-import logo from './logo.svg';
+import logo from './logo.webp';
 import './App.css';
+
+import generateLeagueTable from './FootballLeague';
+import results from './match.json';
+
+
+const handleClick = () => {generateLeagueTable()}
+
 
 function App() {
   return (
@@ -7,16 +14,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Football League.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={handleClick} >Generate League Table</button>
       </header>
     </div>
   );

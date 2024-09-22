@@ -1,0 +1,58 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "Everton"
+      },
+      {
+        "id": 2,
+        "name": "Chelsea"
+      },
+      {
+        "id": 3,
+        "name": "QPR"
+      },
+      {
+        "id": 4,
+        "name": "Liverpool"
+      }
+    ],
+    "results": [
+      {
+        "homeTeamId": 2,
+        "awayTeamId": 1,
+        "score": "2-1"
+      },
+      {
+        "homeTeamId": 2,
+        "awayTeamId": 1,
+        "score": "3-3"
+      },
+      {
+        "homeTeamId": 3,
+        "awayTeamId": 4,
+        "score": "2-2"
+      },
+      {
+        "homeTeamId": 1,
+        "awayTeamId": 3,
+        "score": "0-0"
+      },
+      {
+        "homeTeamId": 2,
+        "awayTeamId": 4,
+        "score": "1-2"
+      },
+      {
+        "homeTeamId": 1,
+        "awayTeamId": 4,
+        "score": "0-3"
+      },{
+        "homeTeamId": 2,
+        "awayTeamId": 3,
+        "score": "3-0"
+      }
+    ]
+  }
+  
+  
